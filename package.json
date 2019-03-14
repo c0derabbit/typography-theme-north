@@ -1,0 +1,26 @@
+{
+  "name": "typography-theme-north",
+  "version": "1.0.0",
+  "description": "A beautiful theme for typography.js",
+  "main": "./dist/index.js",
+  "homepage": "https://eszter.space/typography",
+  "repository": "https://github.com/c0derabbit/typography-theme-north",
+  "author": "c0derabbit <ekov@pm.me>",
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-preset-minify": "^0.5.0",
+    "eslint": "^5.15.1"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint src"
+  }
+}
