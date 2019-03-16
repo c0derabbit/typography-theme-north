@@ -17,7 +17,7 @@ const accent = '#ff3322';
 
 const theme = {
   title: 'North',
-  baseFontSize: '17px',
+  baseFontSize: '18px',
   baseLineHeight: 1.58,
   headerLineHeight: 1.2,
   scaleRatio: 2,
@@ -36,6 +36,7 @@ const theme = {
     },
     'h1,h2,h3,h4,h5,h6': {
       letterSpacing: '.1px',
+      marginTop: rhythm(1.5),
     },
     a: {
       color: accent,
@@ -44,6 +45,10 @@ const theme = {
     },
     'a:hover,a:active': {
       color: textColor,
+    },
+    'time,small': {
+      fontSize: '85%',
+      opacity: .8,
     },
   }),
 };
